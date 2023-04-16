@@ -1,0 +1,31 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+/* App Styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+  width: 43%;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-color: #8da9c4;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
+
+
+
+/* Global Styles */
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #284b63;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #f0ebeb;
+}

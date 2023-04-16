@@ -1,0 +1,33 @@
+.App-header {
+    width: 43%;
+    background-color: #353535;
+    border-radius: 12px;
+    color: #d9d9d9;
+    padding: 30px;
+    margin: 0 auto 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .App-header img {
+    margin-top: 0.6rem;
+    margin-right: 0.6rem;
+    height: 45px;
+    width:  45px;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .App-header {
+      margin: 0.5rem auto;
+    }
+    .App-header h1 {
+      font-size: 2rem;
+    }
+    .App-header img {
+      margin-top: 0.5rem;
+      margin-right: 0.5rem;
+      height: 30px;
+      width: 30px;
+    }
+  }

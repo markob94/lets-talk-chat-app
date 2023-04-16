@@ -1,0 +1,32 @@
+/* Set basic styles for the entire page */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Set styles for code blocks */
+code {
+  font-family: 'Fira Code', monospace;
+}
+
+/* Set styles for the footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  background-color: #7d7b7b;
+  padding: 6px;
+  box-sizing: border-box;
+}
+/* Set mobile-first styles */
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px */
+  footer {
+    position: relative;
+    margin-top: 50px;
+  }
+}

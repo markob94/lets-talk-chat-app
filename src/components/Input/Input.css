@@ -1,0 +1,67 @@
+/* Input Styles */
+form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+}
+
+input {
+  font: inherit;
+  height: auto;
+  width: 100%;
+  border: 1px solid wheat;
+  border-radius: 12px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+button {
+  padding: auto;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 120px;
+  border-radius: 12px;
+  background: inherit;
+  border: 1px solid #092e6a;
+  color: #092e6a;
+    text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+ 
+}
+
+button:hover {
+  color: rgb(240, 240, 240);
+  background: #092e6a;
+}
+button:active {
+  letter-spacing: 2px;
+}
+
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  border-color: #ccc;
+  color: rgb(177, 214, 54);
+  background: inherit;
+  cursor: not-allowed;
+}
+
+.App-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 4vh;
+  width: 43%;
+  margin: 0 auto;
+  margin-top: 8px;
+  border-radius: 12px;
+  background-color: #3c6e71;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
